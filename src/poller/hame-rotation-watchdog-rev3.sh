@@ -6,10 +6,10 @@ LOG="/opt/garagepi/logs/hame-rotation-watchdog-rev3.log"
 LOCK="/run/hame-rotation-watchdog-rev3.lock"
 SERVICE="hame-rotate-batch.service"
 
-BROKER_HOST="192.168.1.100"
+BROKER_HOST="MQTT_BROKER_IP"
 BROKER_PORT="1883"
 MQTT_USER="mqtt"
-MQTT_PASS="Felin1410"
+MQTT_PASS="CHANGE_ME"
 
 MAX_AGE_SECONDS=300
 HARD_AGE_SECONDS=900
@@ -151,10 +151,10 @@ LOG="/opt/garagepi/logs/hame-rotation-watchdog-rev3.log"
 LOCK="/run/hame-rotation-watchdog-rev3.lock"
 SERVICE="hame-rotate-batch.service"
 
-BROKER_HOST="192.168.1.100"
+BROKER_HOST="MQTT_BROKER_IP"
 BROKER_PORT="1883"
 MQTT_USER="mqtt"
-MQTT_PASS="Felin1410"
+MQTT_PASS="CHANGE_ME"
 
 MAX_AGE_SECONDS=300
 HARD_AGE_SECONDS=900

@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-MQTT_HOST="192.168.1.100"
+MQTT_HOST="MQTT_BROKER_IP"
 MQTT_PORT="1883"
 MQTT_USER="mqtt"
-MQTT_PASS="Felin1410"
+MQTT_PASS="CHANGE_ME"
 
 EXPORTER="/opt/garagepi/operational/hame-runtime-export.js"
 QUEUE="/opt/garagepi/state/hame_protocol.jsonl"

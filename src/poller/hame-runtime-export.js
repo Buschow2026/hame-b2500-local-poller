@@ -15,7 +15,7 @@ const LOCK_FILE = "/opt/garagepi/state/locks/hame-runtime-export.lock";
 const MAX_ARCHIVE_LINES = 2000;
 const MAX_ERROR_LINES = 1000;
 
-const MQTT_HOST = "192.168.1.100";
+const MQTT_HOST = "MQTT_BROKER_IP";
 const MQTT_PORT = "1883";
 const MQTT_QOS = "0";
 const MQTT_RETAIN = false;

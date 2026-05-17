@@ -5,9 +5,9 @@ const path = require("path");
 const { spawnSync } = require("child_process");
 
 const DEVICES = [
-  "94:70:6c:ce:03:37", // S04
-  "94:70:6c:ce:1a:c5", // S05
-  "94:70:6c:ce:10:84", // S06
+  "AA:BB:CC:DD:EE:01", // S04
+  "AA:BB:CC:DD:EE:02", // S05
+  "AA:BB:CC:DD:EE:03", // S06
 ];
 
 const STATE_FILE = "/opt/garagepi/state/rotate_state.json";

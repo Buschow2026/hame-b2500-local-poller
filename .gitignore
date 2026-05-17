@@ -1,3 +1,4 @@
+
 node_modules/
 *.log
 *.tmp
@@ -6,3 +7,14 @@ node_modules/
 .vscode/
 .DS_Store
 Thumbs.db
+
+data/
+state/
+logs/
+archive/
+backups/
+__pycache__/
+
+devices.json
+latest.json
+

@@ -1,0 +1,14 @@
+{
+  "name": "garagepi-runner",
+  "version": "1.0.0",
+  "description": "Serial BLE runtime poller for Hame B2500 devices on GaragePi5",
+  "main": "runner/garagepi-runner.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node runner/garagepi-runner.js",
+    "once": "node runner/garagepi-runner.js --once"
+  },
+  "dependencies": {
+    "@abandonware/noble": "^1.9.2-25"
+  }
+}
