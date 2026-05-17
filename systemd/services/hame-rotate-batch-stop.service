@@ -1,0 +1,6 @@
+[Unit]
+Description=Stop HAME Rotate Batch
+
+[Service]
+Type=oneshot
+ExecStart=/bin/systemctl stop hame-rotate-batch.service

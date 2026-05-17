@@ -1,0 +1,15 @@
+[Unit]
+Description=HAME Rotation Watchdog REV3
+Wants=network-online.target bluetooth.service
+After=network-online.target bluetooth.service
+
+[Service]
+Type=oneshot
+User=root
+Group=root
+ExecStart=/opt/garagepi/operational/hame-rotation-watchdog-rev3.sh
+Nice=10
+IOSchedulingClass=best-effort
+IOSchedulingPriority=7
+StandardOutput=append:/opt/garagepi/logs/hame-rotation-watchdog-rev3.log
+StandardError=append:/opt/garagepi/logs/hame-rotation-watchdog-rev3.log

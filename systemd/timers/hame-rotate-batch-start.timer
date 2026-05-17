@@ -1,0 +1,10 @@
+[Unit]
+Description=Start HAME Rotate Batch at 00:01
+
+[Timer]
+OnCalendar=*-*-* 00:01:00
+Persistent=true
+Unit=hame-rotate-batch.service
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,12 @@
+[Unit]
+Description=Run HAME Rotation Watchdog REV3 every 5 minutes
+
+[Timer]
+OnBootSec=3min
+OnUnitActiveSec=5min
+AccuracySec=30s
+Persistent=true
+Unit=hame-rotation-watchdog-rev3.service
+
+[Install]
+WantedBy=timers.target

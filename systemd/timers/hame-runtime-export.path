@@ -1,0 +1,9 @@
+[Unit]
+Description=Watch HAME protocol queue for new records
+
+[Path]
+PathModified=/opt/garagepi/state/hame_protocol.jsonl
+Unit=hame-runtime-export.service
+
+[Install]
+WantedBy=multi-user.target

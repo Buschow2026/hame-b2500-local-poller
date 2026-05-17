@@ -1,0 +1,19 @@
+[Unit]
+Description=HAME Runtime Export Queue Drain
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=admin
+Group=admin
+ExecStart=/opt/garagepi/operational/hame-runtime-export-wrapper.sh
+WorkingDirectory=/opt/garagepi/operational
+Nice=10
+IOSchedulingClass=best-effort
+IOSchedulingPriority=7
+StandardOutput=append:/opt/garagepi/logs/hame-runtime-export.log
+StandardError=append:/opt/garagepi/logs/hame-runtime-export.log
+
+[Install]
+WantedBy=multi-user.target

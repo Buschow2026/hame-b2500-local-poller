@@ -1,0 +1,21 @@
+[Unit]
+Description=HAME Rotate Batch Poller
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=admin
+Group=admin
+WorkingDirectory=/opt/garagepi/operational
+ExecStart=/usr/bin/node /opt/garagepi/operational/hame-rotate-batch.js
+Restart=always
+RestartSec=10
+Nice=10
+IOSchedulingClass=best-effort
+IOSchedulingPriority=7
+StandardOutput=append:/opt/garagepi/logs/hame-rotate-batch.log
+StandardError=append:/opt/garagepi/logs/hame-rotate-batch.log
+
+[Install]
+WantedBy=multi-user.target

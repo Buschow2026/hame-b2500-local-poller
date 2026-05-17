@@ -1,0 +1,10 @@
+[Unit]
+Description=Fallback timer for HAME Runtime Export
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=2min
+Unit=hame-runtime-export.service
+
+[Install]
+WantedBy=timers.target
