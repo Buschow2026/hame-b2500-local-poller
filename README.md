@@ -21,3 +21,47 @@ Local BLE/MQTT polling and operational lessons learned for HAME / Marstek B2500 
 ## Status
 
 Documentation baseline initialized.
+
+## Acknowledgements
+
+Special thanks to the hm2mqtt / hmjs ecosystem and related community reverse engineering efforts.
+
+Earlier work from the community significantly accelerated:
+
+- BLE protocol orientation
+- runtime frame understanding
+- operational experimentation
+- MQTT mapping ideas
+- reverse engineering groundwork
+
+This project evolved into an independent GaragePi-focused runtime stack with:
+
+- serial BLE polling
+- watchdog/recovery handling
+- MQTT export
+- Home Assistant integration
+- operational hardening
+
+The original groundwork from the community was extremely valuable and appreciated.
+
+## Acknowledgements
+
+Special thanks to the hm2mqtt / hmjs ecosystem and related community reverse engineering efforts.
+
+Earlier work from the community significantly accelerated:
+
+- BLE protocol orientation
+- runtime frame understanding
+- operational experimentation
+- MQTT mapping ideas
+- reverse engineering groundwork
+
+This project evolved into an independent GaragePi-focused runtime stack with:
+
+- serial BLE polling
+- watchdog/recovery handling
+- MQTT export
+- Home Assistant integration
+- operational hardening
+
+The original groundwork from the community was extremely valuable and appreciated.
