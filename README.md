@@ -65,3 +65,6 @@ This project evolved into an independent GaragePi-focused runtime stack with:
 - operational hardening
 
 The original groundwork from the community was extremely valuable and appreciated.
+
+Additional tooling, documentation structuring, sanitization review, repository organization, and publishing preparation were assisted with OpenAI ChatGPT.
+
